@@ -22,7 +22,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/usuario" element={<UserPage />} />
             <Route path="/historico" element={<HistoryPage />} />
-            <Route path="/novo-livro" element={<AddBook />} />
+            <Route path="/novoLivro" element={<AddBook />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </BrowserRouter>
